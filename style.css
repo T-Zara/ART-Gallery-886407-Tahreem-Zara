@@ -1,0 +1,181 @@
+﻿body
+{
+display: grid;
+grid-template-rows: 800px  1150px 244px;
+grid-row-gap: 250px;
+}
+
+header {
+    
+    width: 1275px;
+    display: grid;
+    grid-template-columns: 1fr 540px 1fr;
+}
+
+.blackbg {
+    background-color: black;
+    height: 100%;
+}
+
+.textbw {
+    width: 514px;
+    height: 176px;
+    top: 189px;
+    left: 165px;
+    position: absolute;
+    //styleName: Heading (XL);
+    font-family: 'Big Shoulders Display';
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    mix-blend-mode: difference;
+}
+.text {
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    top: 1026px;
+    left: 165px;
+
+}
+
+
+.whitebg {
+    background-color: navajowhite;
+    height: 100%;
+}
+
+.button {
+    width: 204px;
+    height: 72px;
+    position: absolute;
+    top: 414px;
+    left: 925px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 3.6363637447357178px;
+    text-align: left;
+}
+
+.arrow {
+    background-color: antiquewhite;
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    width: 56px;
+    height: 72px;
+    top: 414px;
+    left: 1129px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centertext {
+    width: 350px;
+    height: 160px;
+    position: absolute;
+    top: 190px;
+    left: 925px;
+    //styleName: Body (M);
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #444444;
+}
+
+main {
+    height: 1150px;
+    display:grid;
+    grid-gap:40px;
+    
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height : 244px;
+    align-items: baseline;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+   
+}
+
+.img1 {
+    grid-area: img1;
+    width: 635px;
+    height: 400px;
+    position: absolute;
+    top: 966px;
+    left: 640px;
+
+}
+
+.img2 {
+    position: absolute;
+    width: 635px;
+    height: 720px;
+    top: 1396px;
+    left: 165px;
+}
+.img3 {
+   position: absolute;
+    width: 445px;
+    height: 313px;
+    top: 1396px;
+    left: 830px
+}
+
+
+
+.blacktext {
+    width: 445px;
+    position: absolute;
+    height: 377px;
+    top: 1739px;
+    left: 830px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+.fdiv1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+p {
+    font-family: 'Outfit';
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+
+}
+/*
+instxt {
+    
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+    */
